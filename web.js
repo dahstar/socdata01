@@ -5,7 +5,7 @@ var app = express.createServer(express.logger());
 var content=fs.readFileSync("index.html");
 buf = new Buffer(content);
 len=buf.write('\u00bd + \u00bc=\u00be',0);
-respond.send(buf.toString('utf8',0,len));
+respond.send(content);
 app.get('/', function(request, response) {
 	response.send('hi');
     });
