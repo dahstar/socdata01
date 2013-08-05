@@ -98,6 +98,11 @@
       .footer a {
         color: #ccccff;
       }
+        /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
+ div.addthis_toolbox {
+  width:180px;
+  margin: 0 auto;
+ }
     </style>
   </head>
   <body>
@@ -179,19 +184,21 @@
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
-          <div class="span6 offset3 order">
-            <!-- Standard Bootstrap button. -->
-            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <button class="btn btn-success btn-large">contact me</button>
-          </div>
+          
           <div class="span8 offset2 social">
-            <!-- Social buttons are not included in default Bootstrap. -->
-            <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-            <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
-          </div>
-        </div>
-      </div>
+  <!-- AddThis Button BEGIN -->
+  <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+    <a class="addthis_button_preferred_1"></a>
+    <a class="addthis_button_preferred_2"></a>
+    <a class="addthis_button_compact"></a>
+    <a class="addthis_counter addthis_bubble_style"></a>
+  </div>
+   <script type="text/javascript">var addthis_config = 
+    {"data_track_addressbar":true};</script>
+   <script type="text/javascript" 
+           src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51e5f5d9549fdf9b"></script>
+  <!-- AddThis Button END -->
+</div>
 
       <!-- Beyond this part the marketing copy begins. -->
       <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
@@ -254,6 +261,13 @@ also using data via apps you build not just text and links and maybes some photo
           </div>
 
       </div>
+<!-- PersianStat -->
+<!-- URL: http://sleepy-caverns-1078.herokuapp.com/ -->
+<script language='javascript' type='text/javascript' src='http://www.persianstat.com/service/stat.js'></script>
+<script language='javascript' type='text/javascript'>
+persianstat(10194775, 0);
+</script>
+<!-- /PersianStat -->
 
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
       <!-- http://creativecommons.org/licenses/ -->
