@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
-    <title>PSE - private search engine</title>
+    <title>SocDATA--social data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta charset="utf-8">
+    <title>SocDATA - SOCIAL DATA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
@@ -56,9 +61,13 @@
         line-height: 30px;
       }
       p {
+
+        font-size: 18px;
+
 	font-size: 18px;
 	line-height: 24px;
 	color: #000000;
+
       }
 
       /* Video pitch and Action */
@@ -70,13 +79,61 @@
       }
       .actions {
         background-color: #343434;
-        padding: 3% 0%;      }
+        padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .social, .statistics {
+        text-align: center;
+      }
+      .statistics h3, .statistics p {
+        color: white;
+      }
+
+      /* Marketing Copy and Footer */
+      .copy {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        text-align: justify;
+      }
+      .asset {
+        padding: 2.5% 0%;
+      }
+      .footer {
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
       .footer a {
         color: #ccccff;
       }
+<<<<<<< HEAD
+    </style>
+    <script>
+
+        /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
+ div.addthis_toolbox {
+  width:180px;
+  margin: 0 auto;
+ }
     </style>
   </head>
   <body>
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-43030528-1', 'herokuapp.com');
+  ga('send', 'pageview');
+</script>
+
+  </head>
+  <body>
+
+
+
 
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
@@ -89,12 +146,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">DataB</a>
+
+          <a href="#">SocDATA</a>
+
+          <a class="brand" href="#">SocDATA</a>
+
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#contact">search</a></li>
+              <li><a href="#contact">Search</a></li>
+
+              <li>
+				<a href="http://sleepy-caverns-1078.herokuapp.com/search.html">search</a></li>
+
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -110,14 +175,18 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>PSE</h1>
+          &nbsp;<h1>SocDATA</h1>
+<p class="lead">Friends can help you searching!</div>
+      </div>
+      <div class="row-fluid pitch">
+        <div class="span5 offset1 video">
+         
         </div>
-      </div> 
-      <div class="row-fluid subheading">
-        <div class="span12">
-          <!-- Special typography from Bootstrap for lead paragraph. -->
-          <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Search data via local apps and exchange data </p>
+
+        <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
+        <div class="span5 actions">
+
+          <p class="lead">Search data via share with friends and apps and computers....... </p>
         </div>
       </div>
       <div class="row-fluid pitch">
@@ -125,6 +194,7 @@
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions" id="map_canvas">
+
           <div class="span8 offset2">
             <div class="statistics">
               <div class="span4">
@@ -155,44 +225,93 @@
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
-          <div class="span6 offset3 order">
-            <!-- Standard Bootstrap button. -->
-            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <button class="btn btn-success btn-large">contact me</button>
-          </div>
-          <div class="span8 offset2 social">
+
+          <a class="coinbase-button" data-code="19dfc14f01c9d913b0bfa20a5e6c8c5b" href="https://coinbase.com/checkouts/19dfc14f01c9d913b0bfa20a5e6c8c5b">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+          <div class="span8 offset2 social" style="width: 100px; height: 22px">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-            <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+            <!-- AddThis Button BEGIN -->
+
+          
+          <div class="span8 offset2 social">
+  <!-- AddThis Button BEGIN -->
+  <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+    <a class="addthis_button_preferred_1"></a>
+    <a class="addthis_button_preferred_2"></a>
+    <a class="addthis_button_compact"></a>
+    <a class="addthis_counter addthis_bubble_style"></a>
+  </div>
+   <script type="text/javascript">var addthis_config = 
+    {"data_track_addressbar":true};</script>
+   <script type="text/javascript" 
+           src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51e5f5d9549fdf9b"></script>
+  <!-- AddThis Button END -->
+</div>
+<div class="span8 offset2 social">
+            <!-- Social buttons are not included in default Bootstrap. -->
+            <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+       <!-- AddThis Button BEGIN -->
+
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=dahstar"></script>
+<!-- AddThis Button END -->
+
+          
           </div>
         </div>
       </div>
 
-      <!-- Beyond this part the marketing copy begins. -->
-      <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
-      <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
-      <!-- http://placehold.it -->
+&nbsp;</div>
+        </div>
       <div class="row-fluid section1">
+&nbsp;<div class="span5 offset1 asset">
+          &nbsp;</div>
+        <div class="span5 copy">
+          <p>
+          Idea of socdata is sample.let think you want search something on webs but
+          you havn't enough time for searching web or can't find your desired results.
+          now type your seach query on application or web and going to do another works
+          your friends get your request on their applications on mobile or computer and search for you and if they can
+          find something they share their results on cloud or files(they can send it by mail)
+          and when you open your applications or mail your get your desired results customized for you by human(not just search engine)
+          also you can search with friends on same  or defferent times and encourage them help your project with money
+          
+          </p>
+
+
         <div class="span5 offset1 asset"></div>
         <div class="span5 copy">
           <p><a href="view-source https   spark-public.s3.amazonaws.com startup code bitstarter-hw4.html">About</a></p>
-          <p>Idea for this startup is sample .rather than common search engines search via local apps
-and/or  online html5 apps and exchange data with bitcoins and moneys .
-also using data via apps you build not just text and links and maybes some photos </p>
+          <p>Idea for this startup is sample .Not find your data just with 
+			search on textbox also find with share your friends or apps or 
+			devices and exchange data between them and using them with/without 
+			network connections on your apps or device or just share with your 
+			friends.</p>
+			<p>&nbsp;</p>
           <p></p>
-          <p> send mail to <a href="davood.abbaspour@gmail.com">davood.abbaspour@gmail.com.</a> twiter and facebook will be added as soon as possible </p>
+			<p>what comming next? 
+            an android application and web based version of this applications for best sync with  friends
+            on their devices .This site will not having any textbox for searching on home page.
+            instead using of this search box on applications(web or android) for better sharing between friends and their device.
+			</p>
         </div>
+			<div class="span5 asset">
+				<img class="img-polaroid" src="http://placehold.it/480x300">
+			</div>
       </div>
-
-      <div class="row-fluid section2">
-        <div class="span5 offset1 copy copy-right">
-          <p><a href="view-source https   spark-public.s3.amazonaws.com startup code bitstarter-hw4.html">How it works?</a></p>
           <p>&nbsp;</p>
         </div>
         <div class="span5 asset"></div>
       </div>
-
+<a class="coinbase-button" data-code="c94dd2a5b623967e00b40233b88f9900" data-button-style="donation_small" href="https://coinbase.com/checkouts/c94dd2a5b623967e00b40233b88f9900">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
       <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
       <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
@@ -230,14 +349,26 @@ also using data via apps you build not just text and links and maybes some photo
           </div>
 
       </div>
-
-      <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
-      <!-- http://creativecommons.org/licenses/ -->
       <div class="row-fluid footer">
         <div class="span12">
+
+          <p>This work is licensed for dawood abbaspour hasanloue 2013 
+			dah.socdata@gmail.com</p>
+
           <p>Copying and all right reserved by dawood abbaspour hasanloue. 2013</p>
+
         </div>
       </div>
     </div>
+      <!-- PersianStat -->
+<!-- URL: http://YOUng-fjord-6182.herokuapp.com -->
+<script language='javascript' type='text/javascript' src='http://www.persianstat.com/service/stat.js'></script>
+<script language='javascript' type='text/javascript'>
+persianstat(10196257, 0);
+</script>
+<!-- /PersianStat -->
   </body>
+
+</html>
+
 </html>
